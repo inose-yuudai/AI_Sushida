@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5673249926990587844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5673249926990587707}
+  - component: {fileID: 5673249926990587706}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5673249926990587707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5673249926990587844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5673249926990587706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5673249926990587844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7190f14f4bbc64d8e71d5d7c956c9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sushis:
+  - japaneseName: "\u307E\u3050\u308D"
+    romanizedName: maguro
+  isSushiActive: 0
+  sushiImage: {fileID: 2172312111682056252, guid: efaf607933ee3084da5b12f161f3f7c9, type: 3}
+  sushiSprites:
+  - {fileID: 21300000, guid: 85e83df01f5cbd24cb597333c090b548, type: 3}
+  - {fileID: 21300000, guid: 1e59ad84b401965489e5538324baf8e7, type: 3}
+  - {fileID: 21300000, guid: c237087aeff52304d86426c5383e238e, type: 3}
+  - {fileID: 21300000, guid: 17daf9a61ee5b35469c1906d98a6d9b1, type: 3}
+  japaneseText: {fileID: 0}
+  romajiText: {fileID: 0}
+  imagePrefab: {fileID: 4813389853535837829, guid: efaf607933ee3084da5b12f161f3f7c9, type: 3}
+  spawnPosition: {fileID: 0}
+  scoreManager: {fileID: 0}
